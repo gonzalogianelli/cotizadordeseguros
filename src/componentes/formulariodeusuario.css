@@ -1,0 +1,23 @@
+.form-card{
+ background-color: darkgoldenrod;
+}
+
+.card{
+   background-color: darkgoldenrod;
+}
+
+.titulo{
+  color:  blanchedalmond;
+}
+label{
+  color: blanchedalmond;
+}
+
+input, select, textarea{
+  background-color: blanchedalmond;
+  color: darkgoldenrod;
+}
+
+.error{
+  color: black
+}
