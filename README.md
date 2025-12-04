@@ -56,4 +56,39 @@ El sistema está diseñado para brindar una experiencia clara y rápida a quiene
 - **CSS** → Estilos personalizados para cada componente.
 - **LocalStorage** → Persistencia del historial de cotizaciones en el navegador.
 
+## 🚀 Deploy en GitHub Pages
+
+Este proyecto usa **Vite** y el paquete **gh-pages** para desplegar en GitHub Pages.
+
+
+¡De una Gonza! 🙌 Te armo un texto cortito y claro para tu README.md, explicando cómo desplegar la app en GitHub Pages con Vite. Lo podés copiar y pegar directo:
+## 🚀 Deploy en GitHub Pages
+
+Este proyecto usa **Vite** y el paquete **gh-pages** para desplegar en GitHub Pages.
+
+### Pasos para desplegar
+1. Asegurate de tener configurado en `vite.config.js`:
+   ```js
+   export default defineConfig({
+     base: '/cotizadordeseguros/',
+     plugins: [react()],
+   })
+
+
+El base debe coincidir con el nombre del repositorio.
+
+- Generá el build de producción:
+npm run build
+- Publicá el contenido de la carpeta dist/ en GitHub Pages:
+npm run deploy
+
+
+- Tu sitio quedará disponible en:
+https://<tu-usuario>.github.io/<nombre-del-repo>/
+
+
+En este caso:
+👉 https://gonzalogianelli.github.io/cotizadordeseguros/
+
+
 
