@@ -27,7 +27,8 @@ function App() {
   return (
     <div className="contenedor">
       <h1 className="titulo"></h1>
-     <img className="logo" src={`${import.meta.env.BASE_URL}logoachicado.png`} alt="logo" />
+      <img className="logo" src={`${import.meta.env.BASE_URL}log.png`} alt="logo" />
+
 
 
 
