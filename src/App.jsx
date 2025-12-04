@@ -27,7 +27,10 @@ function App() {
   return (
     <div className="contenedor">
       <h1 className="titulo"></h1>
-      <img className="logo" src="/logoachicado.png" alt="" />
+     <img className="logo" src={`${import.meta.env.BASE_URL}logoachicado.png`} alt="logo" />
+
+
+
 
       <Formulariodeusuario onCotizar={manejarCotizacion} />
 
