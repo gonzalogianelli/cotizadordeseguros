@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="contenedor">
       <h1 className="titulo"></h1>
-      <img className="logo" src="public/logo achicado.png" alt="" />
+      <img className="logo" src="/logoachicado.png" alt="" />
 
       <Formulariodeusuario onCotizar={manejarCotizacion} />
 
